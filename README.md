@@ -15,8 +15,10 @@ The menu dropdown includes a link to the Food and Drink menus, both include pict
 Technologies Used (.html, .css, .json, .php)
 
 Ideas for future improvement:
-Updated menus for the Food and Drink pages.  Including better user interaction with the item pictures (ie. hoverover price over the image instead of popover)
+1. Updated menus for the Food and Drink pages.  Including better user interaction with the item pictures (ie. hoverover price over the image instead of popover)
 
-Updated booking form that can save user information
+2. Updated booking form that can save user information
 
-Login page where users can log on with saved information from the past
+3. Login page where users can log on with saved information from the past
+
+4. New page with hours of operation
