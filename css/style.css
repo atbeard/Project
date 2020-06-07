@@ -1,0 +1,119 @@
+
+/* importing url for google fonts for page */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&display=swap');
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Pacifico', cursive;
+*/
+
+/*styles Logo */
+.pull-left {
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+/* styles the navigation bar */
+.navbar {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+/* collapseable navigation bar elements styling */
+.collapse {
+    padding: 10px;
+}
+/* carousel sizing/styling */
+#theCarousel {
+    height:500px;
+    width: 1140px;
+    padding-bottom: 100px;
+}
+/* moves indicator */
+.carousel-indicators {
+    bottom: -40%;
+}
+
+/* moves control icons */
+.carousel-control {
+    bottom: -40%;
+}
+/* styles the p elements */
+p {
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+
+}
+/* styles the class display-4 */
+.display-4 {
+    text-align:center;
+}
+
+/*image sizing */
+figure > img {
+    height:250px;
+    width: 250px;
+}
+
+/* form formatting */
+form {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+/* h1 styling */
+h1 {
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+}
+
+/* h2 styling */
+h2 {
+    margin-bottom: 190px;
+    padding: 100px;
+}
+/* body styling */
+body {
+    background-color: lightgoldenrodyellow;
+    display: block;
+}
+/* horizontal line styling */
+hr {
+    color: black;
+    width: 750px;
+    display: block;
+    border-color: black;
+    height: 10px;
+}
+/* moves text within container */
+.container-text {
+    display: inline;
+}
+/* moves about section */
+.about {
+    margin-top: 300px;
+    }
+/* moves coffee ID */
+#coffee {
+    margin-top: 100px;
+}
+/* moves popover */
+#pop {
+    margin-top: 100px;
+}
+/* moves images with class topimage */
+.topimage {
+    height:700px;
+    width: 1140px;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    margin-top: 120px;
+}
