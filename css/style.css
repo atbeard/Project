@@ -92,15 +92,7 @@ hr {
 /* moves about section */
 .about {
     margin-top: 300px;
-    }
-/* moves coffee ID */
-#coffee {
-    margin-top: 100px;
-}
-/* moves popover */
-#pop {
-    margin-top: 100px;
-}
+    }   
 /* moves images with class topimage */
 .topimage {
     height:700px;

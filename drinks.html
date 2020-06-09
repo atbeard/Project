@@ -57,7 +57,7 @@
 <!--working with popovers using bootstrap-->
 <!--Coffee Image and Text-->
 <div class="container">
-    <a id="pop" href="#" data-toggle="popover" title="Coffee" data-content="Price $1.99"><img id="coffee" class="pull-left" src="img/Coffee.jpg" width="350" height="300"> </a>
+    <a id="pop" href="#" data-toggle="popover" title="Coffee" data-content="Price $1.99"><img class="pull-left" src="img/Coffee.jpg" width="350" height="300"> </a>
     <div class="container_text"> 
     <h1>Coffee</h1>
 </br>
@@ -109,6 +109,7 @@
     $(document).ready(function () {
         $('[data-toggle="popover"]').popover({
             placement: 'right',
+            selector: '.pull-left',
             trigger: 'hover'
         });
     });
