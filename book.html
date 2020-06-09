@@ -78,6 +78,18 @@
                 </div>
             </div>
             </br>
+    <div class="container">
+        <form action="handleBook.php" method="POST" enctype="multipart/form-data">
+            <div class="container">
+                <div class="form-group row">
+                    <label for="inputEmail" class="col-sm-1 col-form-label">Email Address</label>
+                    <div class="col-sm-5">
+                        <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email Address"
+                            required>
+                    </div>
+                </div>
+            </div>
+            </br>            
             <!--Radio selection of party size-->
             <div class="container">
                 <strong>Party Size</strong>
@@ -108,7 +120,7 @@
                         <label class="mr-sm-2" for="inlineFormCustomSelect">
                             Day
                         </label>
-                        <select name="day" type="select" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <select name="day" type="select" class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
                             <option selected>Choose...</option>
                             <option value="1">Monday</option>
                             <option value="2">Tuesday</option>
@@ -126,7 +138,7 @@
                         <label class="mr-sm-2" for="inlineFormCustomSelect">
                             Time
                         </label>
-                        <select name="time" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <select name="time" class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
                             <option selected>Choose...</option>
                             <option value="6am">6:00am</option>
                             <option value="7am">7:00am</option>
