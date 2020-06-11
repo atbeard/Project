@@ -16,143 +16,143 @@
     <!--Logo image as well as navigation bar for users to click between pages-->
     <div class="container">
 
-    <nav class="navbar navbar-default">
-    <div class="container-fluid">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
 
-    <div class="navbar-header">
-    <a class="pull-left" href="index.html"><img src="img/Newlogo.png"></a>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <div class="navbar-header">
+                    <a class="pull-left" href="index.html"><img src="img/Newlogo.png"></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 
-            <span class="sr-only"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="aboutme.html">About Us</a></li>
-            <li><a href="book.html">Book a Workspace</a></li>
-            <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-            aria-haspopup="true" aria-expanded="false"> Menu <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-            <li><a href="drinks.html">Drinks</a></li>
-            <li><a href="food.html">Food</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                 </div>
-            </div>
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="aboutme.html">About Us</a></li>
+                        <li><a href="book.html">Book a Workspace</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false"> Menu <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="drinks.html">Drinks</a></li>
+                                <li><a href="food.html">Food</a></li>
+                            </ul>
+                    </ul>
+                </div>
         </nav>
-    </div>
-</br>
-<hr />
-    <!--Form elements to allow users to book workspace-->
-    <div class="container">
-        <img src="img/Coffee Shop Workspace.jpg" class="topimage" style="width:100%;">
-        <div class="centered">
-            <h1>Book a Table Today!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </br>
+        <hr />
+        <!--Form elements to allow users to book workspace-->
+        <div class="container">
+            <img src="img/Coffee Shop Workspace.jpg" class="topimage" style="width:100%;">
+            <div class="centered">
+                <h1>Book a Table Today!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
         </div>
-    </div>
-    <hr />
-    <div class="container">
-        <form action="handleBook.php" method="POST" enctype="multipart/form-data">
-            <div class="container">
-                <div class="form-group row">
-                    <label for="inputName" class="col-sm-1 col-form-label">Full Name</label>
-                    <div class="col-sm-5">
-                        <input name="name" type="name" class="form-control" id="inputName" placeholder="Full Name"
-                            required>
+        <hr />
+        <div class="container">
+            <form action="handleBook.php" method="POST" enctype="multipart/form-data">
+                <div class="container">
+                    <div class="form-group row">
+                        <label for="inputName" class="col-sm-1 col-form-label">Full Name</label>
+                        <div class="col-sm-5">
+                            <input name="name" type="name" class="form-control" id="inputName" placeholder="Full Name"
+                                required>
+                        </div>
                     </div>
                 </div>
-            </div>
-            </br>
-    <div class="container">
-        <form action="handleBook.php" method="POST" enctype="multipart/form-data">
-                <div class="form-group row">
-                    <label for="inputEmail" class="col-sm-1 col-form-label">Email Address</label>
-                    <div class="col-sm-5">
-                        <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email Address"
-                            required>
-                    </div>
+                </br>
+                <div class="container">
+                    <form action="handleBook.php" method="POST" enctype="multipart/form-data">
+                        <div class="form-group row">
+                            <label for="inputEmail" class="col-sm-1 col-form-label">Email Address</label>
+                            <div class="col-sm-5">
+                                <input name="email" type="email" class="form-control" id="inputEmail"
+                                    placeholder="Email Address" required>
+                            </div>
+                        </div>
                 </div>
-            </div>
-            </br>            
-            <!--Radio selection of party size-->
-            <div class="container">
-                <strong>Party Size</strong>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                        Single
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="2">
-                    <label class="form-check-label" for="gridRadios2">
-                        2 People
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="4">
-                    <label class="form-check-label" for="gridRadios3">
-                        Table (4+ People)
-                    </label>
-                </div>
-            </div>
-            </br>
-            <!--Dropdown menu of dates and times to select-->
-            <div class="container">
-                <div class="form-row align-items-center">
-                    <div class="col-auto my-1">
-                        <label class="mr-sm-2" for="inlineFormCustomSelect">
-                            Day
+                </br>
+                <!--Radio selection of party size-->
+                <div class="container">
+                    <strong>Party Size</strong>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="1"
+                            checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            Single
                         </label>
-                        <select name="day" type="select" class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
-                            <option selected>Choose...</option>
-                            <option value="1">Monday</option>
-                            <option value="2">Tuesday</option>
-                            <option value="3">Wednesday</option>
-                            <option value="4">Thursday</option>
-                            <option value="5">Friday</option>
-                            <option value="6">Saturday</option>
-                            <option value="7">Sunday</option>
-                        </select>
                     </div>
-                </div>
-                <br/>
-                <div class="form-row align-items-center">
-                    <div class="col-auto my-1">
-                        <label class="mr-sm-2" for="inlineFormCustomSelect">
-                            Time
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="2">
+                        <label class="form-check-label" for="gridRadios2">
+                            2 People
                         </label>
-                        <select name="time" class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
-                            <option selected>Choose...</option>
-                            <option value="6am">6:00am</option>
-                            <option value="7am">7:00am</option>
-                            <option value="8am">8:00am</option>
-                            <option value="9am">9:00am</option>
-                            <option value="10am">10:00am</option>
-                            <option value="11am">11:00am</option>
-                            <option value="12pm">12:00pm</option>
-                        </select>
                     </div>
-                    <button class="btn btn-primary" type="submit">Book!</button>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="4">
+                        <label class="form-check-label" for="gridRadios3">
+                            Table (4+ People)
+                        </label>
+                    </div>
                 </div>
-            </div>
-    </div>
+                </br>
+                <!--Dropdown menu of dates and times to select-->
+                <div class="container">
+                    <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2" for="inlineFormCustomSelect">
+                                Day
+                            </label>
+                            <select name="day" type="select" class="custom-select mr-sm-2" id="inlineFormCustomSelect"
+                                required>
+                                <option selected>Choose...</option>
+                                <option value="1">Monday</option>
+                                <option value="2">Tuesday</option>
+                                <option value="3">Wednesday</option>
+                                <option value="4">Thursday</option>
+                                <option value="5">Friday</option>
+                                <option value="6">Saturday</option>
+                                <option value="7">Sunday</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2" for="inlineFormCustomSelect">
+                                Time
+                            </label>
+                            <select name="time" class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
+                                <option selected>Choose...</option>
+                                <option value="6am">6:00am</option>
+                                <option value="7am">7:00am</option>
+                                <option value="8am">8:00am</option>
+                                <option value="9am">9:00am</option>
+                                <option value="10am">10:00am</option>
+                                <option value="11am">11:00am</option>
+                                <option value="12pm">12:00pm</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Book!</button>
+                    </div>
+                </div>
+        </div>
 
-    </form>
-    <hr />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        </form>
+        <hr />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript"
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
+
 </html>
